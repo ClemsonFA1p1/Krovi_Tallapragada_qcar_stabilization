@@ -29,5 +29,16 @@ Prerequisites : Matlab with RL Toolbox.
 ![alt text](https://github.com/ClemsonFA1p1/Krovi_Tallapragada_qcar_stabilization/blob/main/mecc_2.jpg)
 
 
+## Deployment
+
+The agent is validated with the deployment on Quanser Qcar. Bringiing up the QCAR, setting up the simulink framework can be follwed by refering the docs provided on Qunaser website. 
+https://www.quanser.com/products/qcar/
+
+Unfortunately, at the time of this work, the Quanser code generation tool chain did not support generating code for neural networks. As a result the control policy could not be deployped by code generation. The bypass suggested by Quanser was to use the wireless data transfer block set. This was enabled by running the policy on the host computer (which wirelessly recevies the state inputs and sends control singnals) and the rest of the control toolchain running on the Qcar.
+
+![alt text](https://github.com/ClemsonFA1p1/Krovi_Tallapragada_qcar_stabilization/blob/main/mecc_5.jpg)
+
+
 ### Useful links:
 Preprint : https://www.researchgate.net/publication/362889856_Stabilization_of_vertical_motion_of_a_vehicle_on_bumpy_terrain_using_deep_reinforcement_learning
+
