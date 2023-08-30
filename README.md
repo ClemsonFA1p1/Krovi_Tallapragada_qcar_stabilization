@@ -40,7 +40,7 @@ Unfortunately, at the time of this work, the Quanser code generation tool chain 
 
 ## Comaprison : With an without training on real world data
 
-![alt text](https://github.com/ClemsonFA1p1/Krovi_Tallapragada_qcar_stabilization/blob/main/Qcar_video.mp4)
+<video src='https://github.com/ClemsonFA1p1/Krovi_Tallapragada_qcar_stabilization/blob/main/Qcar_video.mp4' width=180/>
 
 
 ### Useful links:
