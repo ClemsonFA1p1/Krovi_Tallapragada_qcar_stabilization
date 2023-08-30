@@ -38,6 +38,10 @@ Unfortunately, at the time of this work, the Quanser code generation tool chain 
 
 ![alt text](https://github.com/ClemsonFA1p1/Krovi_Tallapragada_qcar_stabilization/blob/main/mecc_5.jpg)
 
+## Comaprison : With an without training on real world data
+
+![alt text](https://github.com/ClemsonFA1p1/Krovi_Tallapragada_qcar_stabilization/blob/main/Qcar_video.mp4)
+
 
 ### Useful links:
 Preprint : https://www.researchgate.net/publication/362889856_Stabilization_of_vertical_motion_of_a_vehicle_on_bumpy_terrain_using_deep_reinforcement_learning
